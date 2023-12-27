@@ -243,3 +243,70 @@ footer div span {
   display: flex;
   justify-content: center;
 }
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 8vw;
+  }
+
+  header p {
+    font-size: 4vw;
+  }
+
+  nav ul li {
+    font-size: 2.75vw;
+  }
+
+  #about h1 {
+    font-size: 5vw;
+  }
+
+  #about p {
+    font-size: 2.75vw;
+  }
+
+  main #aa,
+  main #bb {
+    height: 30vh;
+    width: 25vw;
+  }
+
+  main a {
+    font-size: 2.75vw;
+  }
+
+  article h1 {
+    font-size: 5vw;
+  }
+
+  article p {
+    font-size: 2.75vw;
+  }
+
+  footer p,
+  footer div p,
+  footer div span,
+  .button .button__text {
+    font-size: 2vw;
+  }
+
+  .button {
+    width: 50vw;
+    height: 12vw;
+  }
+
+  .button .button__text {
+    transform: translateX(15vw);
+  }
+
+  .button .button__icon {
+    transform: translateX(35vw);
+  }
+}
+@media screen and (max-width: 1025px) {
+  main #aa,
+  main #bb {
+    width: 25vw;
+    height: 35vh;
+  }
+}
