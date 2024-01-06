@@ -99,7 +99,7 @@ function App() {
           <h1>How to Reach Me</h1>
           <p>Look on my socials listed in the footer of this webpage</p>
         </div>
-        <a href='/assets/resume.docx' target='blanc'>
+        <a href='public/Resume.docx' download>
           <a className='Download'>
             <button className='button' type='button'>
               <span className='button__text'>Resume</span>
