@@ -121,6 +121,7 @@ function App() {
         </a>
       </article>
       <footer className='footer'>
+        <p>Level Up Your Website</p>
         <p>&copy; 2023 Dobromir Teodor Gabriel. All rights reserved.</p>
         <div className='social-links'>
           <p>Follow me:</p>
